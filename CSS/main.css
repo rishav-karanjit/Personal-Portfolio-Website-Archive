@@ -3,6 +3,8 @@
     display: block;
     text-align: center;
     width:100%;
+    background: rgb(230,220,219);
+    background: linear-gradient(349deg, rgba(230,220,219,1) 62%, rgba(254,255,128,1) 76%);
 }
 .heading1{
     font-size: 60px;
@@ -13,4 +15,8 @@
 
 .heading2{
     font-size: 30px;
+}
+
+.container-fluid{
+    padding: 0 !important;
 }
