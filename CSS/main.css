@@ -26,14 +26,7 @@ body {
 }
 
 .items{
-    background: #060c21;
-}
-
-.item:before{
-    content: '';
-    position: absolute;
-    top : -2px;
-    bottom : -2px;
-    left : -2px;
-    right : -2px;
+    -webkit-box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
+    -moz-box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
+    box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
 }
