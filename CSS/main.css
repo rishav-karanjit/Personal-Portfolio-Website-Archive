@@ -1,3 +1,16 @@
-.heading{
-    letter-spacing: 3px;
+.heading1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.heading2{
+    font-size: 30px;
+}
+.heading1, .heading2{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    width:100%;
 }
