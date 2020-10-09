@@ -21,17 +21,18 @@ body {
 }
 
 .heading2{
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.subheading{
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
 }
 
 .container-fluid{
     padding: 0 !important;
-}
-
-.items{
-    -webkit-box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
-    -moz-box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
-    box-shadow: -1px 2px 101px -48px rgba(12,105,245,1);
 }
 
 .divider-custom {
@@ -40,28 +41,47 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .divider-custom .divider-custom-line {
+}
+
+.divider-custom .divider-custom-line {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
     background-color: #2c3e50;
     border-radius: 1rem;
     border-color: #2c3e50 !important;
-  }
-  .divider-custom .divider-custom-line:first-child {
+}
+
+.divider-custom .divider-custom-line:first-child {
     margin-right: 1rem;
-  }
-  .divider-custom .divider-custom-line:last-child {
+}
+
+.divider-custom .divider-custom-line:last-child {
     margin-left: 1rem;
-  }
-  .divider-custom .divider-custom-icon {
+}
+
+.divider-custom .divider-custom-icon {
     color: #2c3e50 !important;
     font-size: 2rem;
-  }
-  .divider-custom.divider-light .divider-custom-line {
+}
+
+.divider-custom.divider-light .divider-custom-line {
     background-color: #fff;
-  }
-  .divider-custom.divider-light .divider-custom-icon {
+}
+
+.divider-custom.divider-light .divider-custom-icon {
     color: #fff !important;
-  }
+}
+
+.divodd{
+    padding: 2em;
+}
+
+.diveven{
+    background-color: #1ABC9C;
+}
+
+.txt{
+    font-size: 1.5rem;
+}
+
