@@ -85,6 +85,10 @@ a, a:hover, a:focus, a:active {
     min-height: 100vh;
 }
 
+.last{
+    padding: 2em;
+}
+
 .txt{
     font-size: 1.5rem;
 }
