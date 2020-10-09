@@ -82,6 +82,7 @@ a, a:hover, a:focus, a:active {
 .diveven{
     padding: 2em;
     background-color: #1ABC9C;
+    min-height: 100vh;
 }
 
 .txt{
@@ -102,7 +103,7 @@ html,body{
     place-items: center;
     background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     font-family: 'Poppins',sans-serif;
-  }
+}
 .wrapper .button{
   display: inline-block;
   height: 60px;
@@ -169,6 +170,14 @@ html,body{
 .wrapper .button:nth-child(4) span{
   color: #333;
 }
+
 .wrapper .button:nth-child(5) span{
   color: #ff0000;
+}
+
+.card{
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-weight: bold;
 }
