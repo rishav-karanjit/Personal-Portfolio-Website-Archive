@@ -3,4 +3,3 @@
 *.css linguist-vendored=false
 *.html linguist-vendored=false
 fontawesome/* linguist-vendored
-bootstrap/js/* linguist-vendored
