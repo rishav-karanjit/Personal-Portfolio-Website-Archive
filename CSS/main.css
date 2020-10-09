@@ -262,9 +262,15 @@ html,body{
     background: #fff;
     border-radius: 6px;
 }
-  
 
-
+.footer {
+    padding: 2em;
+    font-size: 1.7em;
+    color: white;
+    background: black;
+    width: auto;
+    height: auto;
+}
 
 /* Mobile version */
 @media screen and (max-width: 600px) {
