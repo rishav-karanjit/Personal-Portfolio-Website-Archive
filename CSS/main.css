@@ -304,3 +304,66 @@ html,body{
   min-width: 65vh;
   max-height: 50vh;
 }
+
+.MoreInfo{
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.7em;
+  position: absolute;
+  right: 0;
+  top : 0;
+}
+
+.card-img-bottom{
+  width:100%;
+}
+
+.col{
+  margin-bottom: 2em;
+}
+.card-text{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* project */
+
+.button-git {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #333;;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-git span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-git span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-git:hover span {
+  padding-right: 25px;
+}
+
+.button-git:hover span:after {
+  opacity: 1;
+  right: 0;
+}
