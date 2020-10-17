@@ -1,7 +1,9 @@
-$( ".flip-card" ).click(function() {
-    if (  $( this ).css( "transform" ) == 'none' ){
-        $(this).css("transform","rotateY(180deg);");
+$('.divodd').each(function () {
+    var y = $(document).scrollTop();
+    var t = $(this).parent().offset().top;
+    if (y > t) {
+        $(this).fadeIn();
     } else {
-        $(this).css("transform","" );
+        $(this).fadeOut();
     }
 });

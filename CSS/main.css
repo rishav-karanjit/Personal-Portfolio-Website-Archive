@@ -321,12 +321,10 @@ html,body{
 .col{
   margin-bottom: 2em;
 }
-.card-text{
+.lighter{
   font-weight: lighter;
   font-style: italic;
 }
-
-/* project */
 
 .button-git {
   display: inline-block;
@@ -364,6 +362,46 @@ html,body{
 }
 
 .button-git:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-yt {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e62117;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-yt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-yt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-yt:hover span {
+  padding-right: 25px;
+}
+
+.button-yt:hover span:after {
   opacity: 1;
   right: 0;
 }
