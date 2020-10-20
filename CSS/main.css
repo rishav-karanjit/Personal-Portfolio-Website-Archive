@@ -4,9 +4,9 @@
     text-align: center;
     width:100%;
     padding: 3vh;
-    padding-top: 4vh;
+    padding-top: 5vh;
     background-color: #1ABC9C;
-    min-height: 100vh;
+    height: fit-content;
 }
 
 a, a:hover, a:focus, a:active {
@@ -15,21 +15,23 @@ a, a:hover, a:focus, a:active {
 }
 
 .heading1{
-    font-size: 10vh;
-    font-weight: 700;
-    letter-spacing: 0.3vh;
+    font-size: 9vw;
+    font-weight: 500;
+    letter-spacing: 0.3vw;
     margin-bottom: 2vh;
 }
 
 .heading2{
-    font-size: 7vh;
+  margin-top: 2vh;
+  font-size: 5vw;
+  margin-bottom: 5vh;
 }
 
 .subheading{
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .container-fluid{
@@ -48,9 +50,9 @@ a, a:hover, a:focus, a:active {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #2c3e50;
+    background-color: white;
     border-radius: 1vh;
-    border-color: #2c3e50 !important;
+    border-color: white !important;
 }
 
 .divider-custom .divider-custom-line:first-child {
@@ -62,7 +64,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .divider-custom .divider-custom-icon {
-    color: #2c3e50 !important;
+    color: white !important;
     font-size: 2rem;
 }
 
@@ -75,22 +77,24 @@ a, a:hover, a:focus, a:active {
 }
 
 .divodd{
-    padding: 2em;
-    min-height: 100vh;
+    padding: 2vh;
+    height: fit-content;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
 }
 
-.diveven{
-    padding: 2em;
-    background-color: #1ABC9C;
-    min-height: 100vh;
+.head{
+  background-color: #c68c53;
+  width: 100%;
+  color: white;
 }
-
 .last{
     padding: 2em;
 }
 
 .txt{
-    font-size: 1.5rem;
+  padding: 2vw;
+  font-size: 2rem;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
@@ -268,7 +272,7 @@ html,body{
     font-size: 1.7em;
     color: white;
     background: black;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -301,8 +305,9 @@ html,body{
   }
 
 .rounded-circle{
-  min-width: 65vh;
-  max-height: 50vh;
+  width: 35vh;
+  max-width: 50vh;
+  height: 40vh;
 }
 
 .MoreInfo{
