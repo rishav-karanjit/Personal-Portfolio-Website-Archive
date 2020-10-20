@@ -410,3 +410,7 @@ html,body{
   opacity: 1;
   right: 0;
 }
+
+.timeline{
+  margin: 4em;
+}
